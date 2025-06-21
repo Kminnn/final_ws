@@ -1,0 +1,74 @@
+[0.022s] Invoking command in '/home/khemin/final_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khemin/ros2_ws/install/my_robot_bringup:/home/khemin/rosbot_ws/install/rosbot_utils:/home/khemin/rosbot_ws/install/rosbot_bringup:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_gazebo:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_controller:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_utils:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_bringup:/home/khemin/ws_lidar/install/lidar_processing:/opt/ros/humble /usr/bin/cmake /home/khemin/final_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/khemin/final_ws/install/rf2o_laser_odometry
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.119s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.264s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.275s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.545s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.647s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.704s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.712s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.723s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.808s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.812s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.913s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.941s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.986s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.000s] -- Looking for pthread.h
+[1.066s] -- Looking for pthread.h - found
+[1.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.131s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.132s] -- Found Threads: TRUE  
+[1.179s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.190s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.211s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.212s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.212s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.317s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.334s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.369s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[1.471s] -- Configuring done
+[1.491s] -- Generating done
+[1.499s] -- Build files have been written to: /home/khemin/final_ws/build/rf2o_laser_odometry
+[1.525s] Invoked command in '/home/khemin/final_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khemin/ros2_ws/install/my_robot_bringup:/home/khemin/rosbot_ws/install/rosbot_utils:/home/khemin/rosbot_ws/install/rosbot_bringup:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_gazebo:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_controller:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_utils:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_bringup:/home/khemin/ws_lidar/install/lidar_processing:/opt/ros/humble /usr/bin/cmake /home/khemin/final_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/khemin/final_ws/install/rf2o_laser_odometry
+[1.525s] Invoking command in '/home/khemin/final_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khemin/ros2_ws/install/my_robot_bringup:/home/khemin/rosbot_ws/install/rosbot_utils:/home/khemin/rosbot_ws/install/rosbot_bringup:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_gazebo:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_controller:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_utils:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_bringup:/home/khemin/ws_lidar/install/lidar_processing:/opt/ros/humble /usr/bin/cmake --build /home/khemin/final_ws/build/rf2o_laser_odometry -- -j16 -l16
+[1.683s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[1.687s] [ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[1.693s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[18.771s] [ 80%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[19.132s] [100%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[19.361s] [100%] Built target rf2o_laser_odometry
+[19.623s] [100%] Built target rf2o_laser_odometry_node
+[19.635s] Invoked command in '/home/khemin/final_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khemin/ros2_ws/install/my_robot_bringup:/home/khemin/rosbot_ws/install/rosbot_utils:/home/khemin/rosbot_ws/install/rosbot_bringup:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_gazebo:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_controller:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_utils:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_bringup:/home/khemin/ws_lidar/install/lidar_processing:/opt/ros/humble /usr/bin/cmake --build /home/khemin/final_ws/build/rf2o_laser_odometry -- -j16 -l16
+[19.636s] Invoking command in '/home/khemin/final_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khemin/ros2_ws/install/my_robot_bringup:/home/khemin/rosbot_ws/install/rosbot_utils:/home/khemin/rosbot_ws/install/rosbot_bringup:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_gazebo:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_controller:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_utils:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_bringup:/home/khemin/ws_lidar/install/lidar_processing:/opt/ros/humble /usr/bin/cmake --install /home/khemin/final_ws/build/rf2o_laser_odometry
+[19.644s] -- Install configuration: ""
+[19.644s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[19.653s] -- Set runtime path of "/home/khemin/final_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+[19.653s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[19.653s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[19.654s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[19.654s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[19.654s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[19.654s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[19.654s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[19.654s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[19.654s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[19.654s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[19.655s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[19.655s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[19.655s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[19.655s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[19.655s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[19.655s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[19.655s] -- Installing: /home/khemin/final_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[19.657s] Invoked command in '/home/khemin/final_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khemin/ros2_ws/install/my_robot_bringup:/home/khemin/rosbot_ws/install/rosbot_utils:/home/khemin/rosbot_ws/install/rosbot_bringup:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_gazebo:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_controller:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_utils:/home/khemin/rosbot_ws/src/rosbot_ros/install/rosbot_bringup:/home/khemin/ws_lidar/install/lidar_processing:/opt/ros/humble /usr/bin/cmake --install /home/khemin/final_ws/build/rf2o_laser_odometry
