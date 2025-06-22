@@ -1,4 +1,19 @@
 # My ros2 humble slam && Nav2(unfinish) with Lidar-only-odometry  
+## Test branch command list:
+<pre lang="markdown"> ros2 launch sllidar_ros2 sllidar_a1_launch.py  </pre>
+<pre lang="markdown"> ros2 launch rf2o_laser_odometry rf2o_laser_odometry.launch.py  </pre>
+<pre lang="markdown"> ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link laser  </pre>
+<pre lang="markdown"> ros2 launch slam_toolbox online_sync_launch.py params_file:=/home/khemin/my_slam_config.yaml </pre>
+<pre lang="markdown"> ros2 launch nav2_bringup bringup_launch.py \
+    slam:=True \
+    map:=dummy.yaml \
+    use_sim_time:=False \
+    params_file:=/opt/ros/humble/share/nav2_bringup/params/nav2_params.yaml
+  </pre>
+
+  
+
+
 
 ## Command list:
 Paste this in each terminal
