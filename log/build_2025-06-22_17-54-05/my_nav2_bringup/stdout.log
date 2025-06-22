@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/my_nav2_bringup/my_nav2_bringup.egg-info
+writing ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/dependency_links.txt
+writing requirements to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/requires.txt
+writing top-level names to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/top_level.txt
+writing manifest file '../../build/my_nav2_bringup/my_nav2_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_nav2_bringup/my_nav2_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_nav2_bringup/my_nav2_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/khemin/final_ws/build/my_nav2_bringup/build
+creating /home/khemin/final_ws/build/my_nav2_bringup/build/lib
+creating /home/khemin/final_ws/build/my_nav2_bringup/build/lib/my_nav2_bringup
+copying my_nav2_bringup/__init__.py -> /home/khemin/final_ws/build/my_nav2_bringup/build/lib/my_nav2_bringup
+running install
+running install_lib
+creating /home/khemin/final_ws/install/my_nav2_bringup/lib/python3.10/site-packages/my_nav2_bringup
+copying /home/khemin/final_ws/build/my_nav2_bringup/build/lib/my_nav2_bringup/__init__.py -> /home/khemin/final_ws/install/my_nav2_bringup/lib/python3.10/site-packages/my_nav2_bringup
+byte-compiling /home/khemin/final_ws/install/my_nav2_bringup/lib/python3.10/site-packages/my_nav2_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/khemin/final_ws/install/my_nav2_bringup/share/ament_index
+creating /home/khemin/final_ws/install/my_nav2_bringup/share/ament_index/resource_index
+creating /home/khemin/final_ws/install/my_nav2_bringup/share/ament_index/resource_index/packages
+copying resource/my_nav2_bringup -> /home/khemin/final_ws/install/my_nav2_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/khemin/final_ws/install/my_nav2_bringup/share/my_nav2_bringup
+creating /home/khemin/final_ws/install/my_nav2_bringup/share/my_nav2_bringup/launch
+copying launch/nav2_slam_launch.py -> /home/khemin/final_ws/install/my_nav2_bringup/share/my_nav2_bringup/launch
+creating /home/khemin/final_ws/install/my_nav2_bringup/share/my_nav2_bringup/config
+copying config/nav2_params.yaml -> /home/khemin/final_ws/install/my_nav2_bringup/share/my_nav2_bringup/config
+running install_egg_info
+Copying ../../build/my_nav2_bringup/my_nav2_bringup.egg-info to /home/khemin/final_ws/install/my_nav2_bringup/lib/python3.10/site-packages/my_nav2_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/khemin/final_ws/build/my_nav2_bringup/install.log'

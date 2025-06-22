@@ -1,0 +1,20 @@
+[0.776s] Invoking command in '/home/khemin/final_ws/src/my_nav2_bringup': PYTHONPATH=/home/khemin/final_ws/build/my_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khemin/final_ws/install/my_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav2_bringup build --build-base /home/khemin/final_ws/build/my_nav2_bringup/build install --record /home/khemin/final_ws/build/my_nav2_bringup/install.log --single-version-externally-managed install_data
+[0.957s] running egg_info
+[0.969s] writing ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/dependency_links.txt
+[0.970s] writing requirements to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/requires.txt
+[0.970s] writing top-level names to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/top_level.txt
+[0.994s] reading manifest file '../../build/my_nav2_bringup/my_nav2_bringup.egg-info/SOURCES.txt'
+[0.995s] writing manifest file '../../build/my_nav2_bringup/my_nav2_bringup.egg-info/SOURCES.txt'
+[0.995s] running build
+[0.995s] running build_py
+[0.995s] running install
+[0.999s] running install_lib
+[1.012s] running install_data
+[1.012s] copying config/nav2_params.yaml -> /home/khemin/final_ws/install/my_nav2_bringup/share/my_nav2_bringup/config
+[1.012s] running install_egg_info
+[1.025s] removing '/home/khemin/final_ws/install/my_nav2_bringup/lib/python3.10/site-packages/my_nav2_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[1.025s] Copying ../../build/my_nav2_bringup/my_nav2_bringup.egg-info to /home/khemin/final_ws/install/my_nav2_bringup/lib/python3.10/site-packages/my_nav2_bringup-0.0.0-py3.10.egg-info
+[1.026s] running install_scripts
+[1.150s] writing list of installed files to '/home/khemin/final_ws/build/my_nav2_bringup/install.log'
+[1.171s] Invoked command in '/home/khemin/final_ws/src/my_nav2_bringup' returned '0': PYTHONPATH=/home/khemin/final_ws/build/my_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khemin/final_ws/install/my_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav2_bringup build --build-base /home/khemin/final_ws/build/my_nav2_bringup/build install --record /home/khemin/final_ws/build/my_nav2_bringup/install.log --single-version-externally-managed install_data
