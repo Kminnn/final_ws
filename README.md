@@ -1,5 +1,6 @@
 # My ros2 humble slam && Nav2 with Lidar-only-odometry  
 ## Test branch command list:
+#### Paste this in each terminal
 
 Launch RPLIDAR
 <pre lang="markdown"> ros2 launch sllidar_ros2 sllidar_a1_launch.py  </pre>
